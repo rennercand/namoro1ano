@@ -12,14 +12,14 @@ else {
  <div class="stack"><figure class="back-print"><img src="/fotos/site15.webp" alt="Buquê de girassóis"></figure><figure class="cover"><img src="/fotos/site1.webp" alt="Nós dois sob as luzes da noite"><figcaption>Renner e Sofia</figcaption></figure></div></section>
  <section id="album"><div class="album-copy"><small>${dayNumber(new Date(),together)} DIAS JUNTOS</small><h2>Nosso<br><em>álbum.</em></h2><p>Arraste as fotos para folhear.</p><div class="controls"><button aria-label="Foto anterior">↑</button><button aria-label="Próxima foto">↓</button></div></div><div class="helix"></div></section>
  <section class="eyes" id="olhinhos"><div class="sticky"><p>uma atenção especial nos <em>olhinhos</em> que amo</p><img class="eye-photo" src="/fotos/olhinhos.png" alt="Os olhinhos que eu amo"><div class="ribbon" role="img" aria-label="${eyes}"><svg aria-hidden="true" viewBox="0 0 760 188"><defs><path id="wave" d="M-40 108 C80 108 110 30 210 66 S360 152 452 107 S590 45 670 77 S752 123 810 90"/></defs><use href="#wave" class="thread"/><text><textPath href="#wave"></textPath></text></svg></div></div></section>
- <section id="carta"><small>PARA VOCÊ</small><h2>Uma carta <em>minha.</em></h2><details><summary>Abrir o envelope ♡</summary><article class="letter-body">
+ <section id="carta"><h2>Pra você, <em>Sofia.</em></h2><details class="love-envelope"><summary><span class="postmark" aria-hidden="true">20 NOV<br>2026</span><span class="envelope-label"><span class="closed-label">Abrir minha carta</span><span class="open-label">Guardar a carta</span></span></summary><article class="letter-body">
  <p>Meu amor,</p>
  <p>Você sabe o quanto eu penso no futuro e faço planos pra tudo. Mas de todas as coisas que quero conquistar, nenhuma me faz tão feliz quanto imaginar você ao meu lado vivendo cada uma delas.</p>
  <p>As vezes queria conseguir guardar alguns segundos da nossa vida pra reviver sempre que sentisse saudade. Foi um pouco por isso que fiz tudo isso pra você.</p>
  <p>Obrigado por ser minha pessoa favorita durante esses 365 dias.</p>
  <p>Que sorte a minha poder chamar você de meu amor.</p>
  </article></details></section>
- <footer><small>CONFIDENCIAL · CASO 365</small><h2>Mas nem todas as nossas lembranças estão aqui…</h2><a class="action" href="/operacao-365">Aceitar a investigação →</a></footer>`;
+ <footer class="postscript"><div class="ps-note"><span class="ps-initials" aria-hidden="true">P.S.</span><h2>As fotos zoadas eu guardei em outra pasta.</h2><a class="case-tab" href="/operacao-365"><span>Abrir a pasta</span><i aria-hidden="true">↗</i></a></div><div class="endline"><span>Renner e Sofia</span><a href="#presente">Voltar ao início ↑</a></div></footer>`;
  const album=document.querySelector('.helix');
  const header=app.querySelector('header');header.id='presente';
  header.insertAdjacentHTML('beforebegin',`<section class="overture" aria-label="Abertura"><div class="mast"><span>Renner e Sofia <i>♡</i></span><small>20 NOV 2026</small></div><div class="portrait" aria-hidden="true" inert></div><h2>OLHOS <em>QUE AMO</em><strong>TANTO</strong></h2><button class="pull">Arraste para baixo <b>↓</b></button></section>`);
