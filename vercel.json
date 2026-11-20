@@ -1,0 +1,4 @@
+{
+  "framework": "vite",
+  "rewrites": [{ "source": "/operacao-365", "destination": "/index.html" }]
+}
